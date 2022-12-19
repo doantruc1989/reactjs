@@ -1,0 +1,52 @@
+.site-layout {
+  background-color: var(--pink) !important;
+}
+
+.navbar {
+  background-color: #001529 !important;
+  color: white;
+
+}
+
+.trigger {
+  font-size: x-large;
+}
+
+.logo {
+  margin: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.logo img {
+  width: 100%;
+}
+
+.navbar__username {
+  display: flex;
+  justify-content: space-around;
+  align-items: baseline;
+}
+
+.navbar__username p {
+  font-size: 20px;
+}
+
+/* .menu {
+  background-color: var(--pink) !important;
+}
+
+.menuItem:active {
+  background-color: var(--activeItem) !important;
+} */
+
+.menuItem {
+  margin-top: 30px;
+  gap: 10px;
+  font-size: 18px;
+  color: var(--gray);
+  display: flex;
+  align-items: center;
+}

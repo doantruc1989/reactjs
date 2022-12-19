@@ -1,0 +1,85 @@
+.header {
+    background: var(--bg);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.5rem 7%;
+    border-bottom: var(--border);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+}
+
+.header .logo img {
+    height: 6rem;
+}
+
+.header .navbar a {
+    margin: 0 1rem;
+    font-size: 2.5rem;
+    color: #fff;
+}
+
+.header .navbar a:hover {
+    color: var(--main-color);
+    border-bottom: .1rem solid var(--main-color);
+    padding-bottom: .5rem;
+}
+
+.header .icons div {
+    color: #fff;
+    cursor: pointer;
+    font-size: 2.5rem;
+    margin-left: 2rem;
+}
+
+.header .icons span {
+    background-color: yellow;
+    padding: 3px;
+
+    font-size: 20px;
+    border-radius: 50%;
+}
+
+.header .icons div:hover {
+    color: var(--main-color);
+}
+
+#menu-btn {
+    display: none;
+}
+
+.dropdown {
+    position: relative;
+}
+
+.react-icon {
+    background-color: black;
+    color: white;
+    font-size: 21px;
+    cursor: pointer;
+}
+
+.menu-container {
+    position: absolute;
+    width: auto;
+    background-color: white;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    top: 100%;
+    right: 80px;
+}
+
+.menu-container .menu-item {
+    font-size: 20px;
+    margin: 5px;
+    padding: 5px;
+    color: black;
+}
+
+.menu-container .menu-item:hover {
+    background-color: rgb(158, 151, 151);
+}

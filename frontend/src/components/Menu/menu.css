@@ -1,0 +1,32 @@
+.menu .box-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+    gap: 1.5rem;
+    align-items: center;
+}
+
+.menu .box-container .box {
+    padding: 1rem;
+    text-align: center;
+    cursor: pointer;
+}
+
+.menu .box-container .box img {
+    height: 15rem;
+    border-radius: 50%;
+    width: 100%;
+}
+
+.menu .box-container .box h3 {
+    color: #fff;
+    font-size: 2rem;
+    padding: 1rem 0;
+}
+
+.menu .box-container .box:hover {
+    background: #fff;
+}
+
+.menu .box-container .box:hover>* {
+    color: var(--black);
+}

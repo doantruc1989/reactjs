@@ -1,0 +1,54 @@
+.register-container {
+    margin-top: 100px;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.register-container h1 {
+    margin: 0px 10px;
+    padding: 0px 10px;
+    font-size: 30px;
+    color: var(--main-color);
+    margin-bottom: 30px;
+}
+
+.register-container p {
+    margin: 0px 10px;
+    padding: 0px 10px;
+    font-size: 30px;
+    color: var(--main-color);
+    margin-bottom: 30px;
+}
+
+.hide {
+    display: none;
+}
+
+.valid {
+    color: limegreen;
+    margin-left: 0.25rem;
+}
+
+.invalid {
+    color: red;
+    margin-left: 0.25rem;
+}
+
+.instructions {
+    font-size: 0.5rem;
+    border-radius: 0.5rem;
+    background: #000;
+    color: green;
+    padding: 0.25rem;
+    position: relative;
+    bottom: -10px;
+    width: 280px;
+    margin-bottom: 10px;
+}
+
+.instructions>svg {
+    margin-right: 0.25rem;
+}
